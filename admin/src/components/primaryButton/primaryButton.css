@@ -1,0 +1,12 @@
+.Primary-Button {
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 18px
+}
+
+.Primary-Button:hover {
+    background-color: #60656F;
+}

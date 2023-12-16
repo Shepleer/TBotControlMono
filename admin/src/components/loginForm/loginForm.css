@@ -1,0 +1,12 @@
+.Login-Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-Form > * {
+    margin-top: 25px;
+}
+
+.Login-Form > .Primary-Button {
+    margin-top: 15px;
+}
