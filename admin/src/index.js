@@ -7,28 +7,20 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginPage from './pages/LoginPage/LoginPage';
+import LoginPage from './pages/Login/LoginPage';
+import DashboardPage from './pages/Dashboard/DashboardPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    action: () => {
-      console.log("hello world!!!")
-    }
-  },
-  {
-    path: "/dashboard",
-    element: <LoginPage />
+    element: <DashboardPage />
   },
   {
     path: "/login",
     element: <LoginPage />
   },
-],
-//{
-  //basename: "/dashboard"
-//}
+]
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
